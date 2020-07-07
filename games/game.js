@@ -14,13 +14,15 @@ async function init_game(turns, difficulty){
             if(pturn == Object.keys(players).length) {
                 pturn = 0
             }
-            require("../modules/Speech").speech(`Au tour de ${Object.keys(players)[pturn]}`)
+            var turn_text = `Au tour de ${Object.keys(players)[pturn]}`
+            require("../modules/Speech").speech(turn_text)
+            console.log(turn_text)
             await tod.game_menu(difficulty, Object.keys(players)[pturn], players)
         }
         if(turns == turn) {
-            require("../modules/Speech").speech("Fin du jeu, faisons le compte des points" +
-            (party.get_winner().length == 1 ? `Le gagnant est ${party.get_winner().toString()}, il a donc droit a un voeu` : `Les gagnants sont ${party.get_winner().join(', ')}, departagez vous pour le voeu`))
-            console.log(party.get_winner())
+            var win_text = "Fin du jeu, faisons le compte des points" + (party.get_winner().length == 1 ? `Le gagnant est ${party.get_winner().toString()}, il a donc droit a un voeu` : `Les gagnants sont ${party.get_winner().join(', ')}, departagez vous pour le voeu`)
+            require("../modules/Speech").speech(win_text)
+            console.log(win_text)
         }
     }
 }

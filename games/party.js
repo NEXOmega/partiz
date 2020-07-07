@@ -26,7 +26,6 @@ function get_highest_score() {
 }
 
 function show_points() {
-    console.log(Object.keys(players))
     console.log(table.table(jsonToTable(players)))
 }
 

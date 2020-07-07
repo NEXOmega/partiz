@@ -41,8 +41,13 @@ function game_menu(difficulty, player, players) {
                         ]
                     }
                 ]).then(result => {
-                    if(result.did == "Oui")
+                    if(result.did == "Oui") {
                         require("./game").party.add_points(player, 2)
+                        /*if(answer.choice == "truth")
+                            require("./game").party.add_points(player, 1)
+                        else
+                            require("./game").party.add_points(player, 2)*/
+                    }
                     else if(result.did == "Non")
                         require("./game").party.add_points(player, -1)
                     reseolve("done")

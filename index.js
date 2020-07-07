@@ -8,8 +8,8 @@ const STATE = {
 }
 
 var current_state = STATE.INIT;
-var turns = 1
-var difficulty = 2
+var turns = 2
+var difficulty = 1
 
 function init() {
     inquirer

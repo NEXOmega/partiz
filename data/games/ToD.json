@@ -13,7 +13,6 @@
             "Quel est ton plat préféré",
             "Si tu devais avoir UN sextoy pour toi ou ton partenaire lequel serait-ce",
             "Quand fut ta dernière branlette ?",
-            "regarde %rp sensuellement et dis lui un compliment bien beauf",
             "Quel est ton rêve le plus bizarre",
             "Il te reste 24h à vivre, qu’est-ce que tu fais ?",
             "Tu as une technique de drague secrète ?",
@@ -37,6 +36,7 @@
         "dare": [
             "Se jeter un sceau d'eau sur la tête",
             "Echange ton haut avec %rp",
+            "regarde %rp sensuellement et dis lui un compliment bien beauf",
             "Lis un récit satanique dans le jardin comme dans une secte",
             "Tu dois chatouiller %rp si il rigole tu peux lui donner un ordre",
             "Masse %rp pendant 1 minute",
@@ -50,8 +50,37 @@
             "Installe une application vibration sur ton téléphone et met le entre tes jambes",
             "Claque la cuisse a Djaid",
             "Porte %rp en princesse pendant 15 seconde",
-            "Masse les pieds de la personne assise à ta droite !",
+            "Masse les pieds de %rp !",
             "Déshabille-toi !",
             "Note chaque personne du sexe opposé de 1 à 10 sur leurs potentiel au lit"]
+    },
+    "sauce": {
+        "truth": [
+            "Que feriez vous si vous surpreniez %rp en train de se masturber ?",
+            "Si tu devais avoir UN sextoy pour toi ou ton partenaire lequel serait-ce",
+            "Quand fut ta dernière branlette ?",
+            "Quel était ta première impression de %rp ",
+            "Aimes tu le BDSM ? Si oui que préfère tu le plus",
+            "Quel est la chose qui t'excite le plus rapidement ?",
+            "Qu'est ce qui te complexe le plus ?",
+            "Donne les plus grande caractéritique physique de %rp",
+            "Avec lequel ou laquelle de tes ami(e)s coucherais-tu ?",
+            "Qui ici aimerais tu voir nu ?",
+            "Quels sont les 2 personnes que tu soulèverais en long en large et en travers ici ?",
+            "Est-ce que tu es jaloux ou jalouse de l’un(e) de tes amis ?",
+            "Sur une échelle de 1 à 10, quelle note donnerais-tu à ton apparence ?",
+            "Quel est ton point sensible ?",
+            "Quelle partie du corps t’excite le plus ?",
+            "Est-ce que tu es jaloux(se) quand ton crush parlais a une personne du s*xe opposé ?",
+            "Note chaque personne du sexe opposé de 1 à 10 sur leurs potentiel au lit"
+        ],
+        "dare":[
+            "Echange ton haut avec %rp",
+            "Sers de siège à %rp, jusqu'a ton prochain tour, putain j'ai des idees de merde",
+            "Tu dois chauffer %rp",
+            "Installe une application vibration sur ton téléphone et met le entre tes jambes",
+            "Masse les pieds de %rp !",
+            "Déshabille-toi !"
+        ]
     }
 }

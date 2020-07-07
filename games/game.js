@@ -6,7 +6,9 @@ async function init_game(turns, difficulty){
     
     for(let turn = 1; turn <= turns; turn++) {
         party.show_points()
-        require("../modules/Speech").speech("Nous sommes au tour " + turn)
+        var turn_number_text = "Nous sommes au tour " + turn
+        require("../modules/Speech").speech(turn_number_text)
+        console.log(turn_number_text)
         await sleep(2000)
         party.get_highest_score()
         await sleep(3000)

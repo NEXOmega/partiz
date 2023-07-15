@@ -16,7 +16,7 @@
   "dependencies": {
     "as-table": "^1.0.55",
     "inquirer": "^7.3.0",
-    "json-to-table": "^4.2.0",
+    "json-to-table": "^4.2.1",
     "say": "^0.16.0",
     "table": "^5.4.6"
   }
